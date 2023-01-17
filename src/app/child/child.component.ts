@@ -7,7 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ChildComponent implements OnInit {
 
-  @Input('paramChildDetails') childDetails: {name: string, description: string};
+  @Input('paramChildDetails') childDetails: {name?: string, description?: string} = {};
   constructor() { }
 
   ngOnInit() {

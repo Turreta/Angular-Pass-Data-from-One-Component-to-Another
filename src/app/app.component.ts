@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'parentchildcomp';
+  title = 'ng-pass-data-to-another-comp';
 }
